@@ -154,6 +154,7 @@ BiFunction<Tipo da primeira entrada, tipo da segunda, tipo resultado>
 Implementação:
 
 <img src="./imgs/BiFunction.png">
+
 ---
 
 ### Referências
