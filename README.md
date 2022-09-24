@@ -44,7 +44,7 @@ Para realização operações com a Function basta utilizar o `.apply(parâmetro
 
 ## Predicate
 
-Esse tipo de interface recebe como parâmetro apenas o tipo de da entrada.
+Esse tipo de interface recebe como parâmetro apenas o tipo de entrada.
 O retorno dessa interface é sempre booleano.
 No caso do Predicate, ao invés de utilizar `.apply(parâmetro)`, é utilizado `.
 test(parâmetro)`. É possível utilizar `or`, `and` e `negate` em conjunto com 
@@ -86,7 +86,7 @@ Implementação:
 
 ## Supplier
 
-Essa interface seria o contrário do que é um Consumir, ela ao invés de 
+Essa interface seria o contrário do que é um Consumer, ela ao invés de 
 consumir os dados, ela irá gerar algo. É uma forma rápida de criar grandes 
 coleções e recuperar/gerar dados. O valor gerado pode ser conferido através 
 do método `.get()`.
